@@ -72,7 +72,7 @@ function AdminLayout() {
         <Routes>
           <Route path="/vendoremaillogin" element={<VendorEmailLogin />} />
           <Route path="/sellersignup" element={<SellerSignUp />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/change_password" element={<ChangePassword />} />
           <Route path="/forgot" element={<Forgot />} />
           <Route path="/loginn" element={<Loginn />} />

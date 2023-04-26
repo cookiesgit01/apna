@@ -1,6 +1,6 @@
 {
+  "homepage": "https://cookiesgit01.github.io/apna",
   "name": "apna",
-  "homepage": "https://github.com/cookiesgit01/apna.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "dotenv": "^16.0.3",
     "env-cmd": "^10.1.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "highcharts": "^10.2.1",
     "highcharts-react-official": "^3.1.0",
     "html2canvas": "^1.4.1",

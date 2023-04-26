@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cookiesgit01/apna.git/static/css/main.09968183.css",
+    "main.js": "/cookiesgit01/apna.git/static/js/main.91f64ec3.js",
+    "static/js/703.ada78317.chunk.js": "/cookiesgit01/apna.git/static/js/703.ada78317.chunk.js",
+    "static/js/513.459cf220.chunk.js": "/cookiesgit01/apna.git/static/js/513.459cf220.chunk.js",
+    "static/js/787.92588dc3.chunk.js": "/cookiesgit01/apna.git/static/js/787.92588dc3.chunk.js",
+    "static/media/description.png": "/cookiesgit01/apna.git/static/media/description.db737aea97d695584df2.png",
+    "static/media/reviwe.png": "/cookiesgit01/apna.git/static/media/reviwe.dd58f65e2e5d3a30780c.png",
+    "static/media/user.jpg": "/cookiesgit01/apna.git/static/media/user.2eeaa488d119e2d45ae2.jpg",
+    "static/media/logo.png": "/cookiesgit01/apna.git/static/media/logo.77be6c9e894e6c2a8fcd.png",
+    "static/media/product_info.png": "/cookiesgit01/apna.git/static/media/product_info.fdeba3f30fbdbb10e2cd.png",
+    "static/media/demo.jpg": "/cookiesgit01/apna.git/static/media/demo.857961e967276bc3967b.jpg",
+    "index.html": "/cookiesgit01/apna.git/index.html",
+    "static/media/collapase.svg": "/cookiesgit01/apna.git/static/media/collapase.e1b77f86c6f6ca325258.svg",
+    "main.09968183.css.map": "/cookiesgit01/apna.git/static/css/main.09968183.css.map",
+    "main.91f64ec3.js.map": "/cookiesgit01/apna.git/static/js/main.91f64ec3.js.map",
+    "703.ada78317.chunk.js.map": "/cookiesgit01/apna.git/static/js/703.ada78317.chunk.js.map",
+    "513.459cf220.chunk.js.map": "/cookiesgit01/apna.git/static/js/513.459cf220.chunk.js.map",
+    "787.92588dc3.chunk.js.map": "/cookiesgit01/apna.git/static/js/787.92588dc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09968183.css",
+    "static/js/main.91f64ec3.js"
+  ]
+}
