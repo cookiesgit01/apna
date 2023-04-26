@@ -1,5 +1,6 @@
 {
   "name": "apna",
+  "homepage":"https://github.com/cookiesgit01/apna.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -57,8 +58,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
