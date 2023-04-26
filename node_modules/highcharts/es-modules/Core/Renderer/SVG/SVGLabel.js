@@ -136,13 +136,11 @@ var SVGLabel = /** @class */ (function (_super) {
                 }
             });
             this.text.css(textStyles_1);
-            var isWidth = 'width' in textStyles_1, isFontStyle = ('fontSize' in textStyles_1 ||
-                'fontWeight' in textStyles_1);
-            // Update existing text, box (#9400, #12163)
-            if (isFontStyle) {
+            // Update existing text, box (#9400, #12163, #18212)
+            if ('fontSize' in textStyles_1 || 'fontWeight' in textStyles_1) {
                 this.updateTextPadding();
             }
-            else if (isWidth) {
+            else if ('width' in textStyles_1 || 'textOverflow' in textStyles_1) {
                 this.updateBoxSize();
             }
         }
@@ -205,14 +203,13 @@ var SVGLabel = /** @class */ (function (_super) {
      * box and add it before the text in the DOM.
      */
     SVGLabel.prototype.onAdd = function () {
-        var str = this.textStr;
         this.text.add(this);
         this.attr({
             // Alignment is available now  (#3295, 0 not rendered if given
             // as a value)
-            text: (defined(str) ? str : ''),
-            x: this.x,
-            y: this.y
+            text: pick(this.textStr, ''),
+            x: this.x || 0,
+            y: this.y || 0
         });
         if (this.box && defined(this.anchorX)) {
             this.attr({

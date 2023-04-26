@@ -134,9 +134,14 @@ Chart.prototype.setUpScrolling = function () {
     }, css, this.scrollingParent);
     // On scroll, reset the chart position because it applies to the scrolled
     // container
+    var lastHoverPoint;
     addEvent(this.scrollingContainer, 'scroll', function () {
         if (_this.pointer) {
             delete _this.pointer.chartPosition;
+            if (_this.hoverPoint) {
+                lastHoverPoint = _this.hoverPoint;
+            }
+            _this.pointer.runPointActions(void 0, lastHoverPoint, true);
         }
     });
     this.innerContainer = createElement('div', {
@@ -154,6 +159,7 @@ Chart.prototype.setUpScrolling = function () {
  */
 Chart.prototype.moveFixedElements = function () {
     var container = this.container, fixedRenderer = this.fixedRenderer, fixedSelectors = [
+        '.highcharts-breadcrumbs-group',
         '.highcharts-contextbutton',
         '.highcharts-credits',
         '.highcharts-legend',
