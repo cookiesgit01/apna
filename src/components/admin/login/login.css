@@ -1,0 +1,106 @@
+.admin_login_form {
+  padding: 25px;
+  border: 0 solid #d5d6d7;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  background-color: rgba(26, 28, 35/0.7);
+  background: #fff;
+}
+.admin_login_form a{
+  text-decoration: none;
+}
+.heading_logo .logo img {
+  max-width: 100%;
+  max-height: 64px;
+}
+.heading_logo .heading_line h3 {
+  font-size: 25px;
+  margin: 16px 0px;
+  color: #4a5568;
+}
+.admin_login_form .log-in-box .log-in-title h3 {
+  margin-bottom: calc(1px + (6 - 1) * ((100vw - 320px) / (1920 - 320)));
+  font-size: calc(18px + (21 - 18) * ((100vw - 320px) / (1920 - 320)));
+}
+.log-in-box .sign-up-box h4 {
+  color: #4a5568;
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+  margin-bottom: calc(0px + (3 - 0) * ((100vw - 320px) / (1920 - 320)));
+}
+.admin_login_form .log-in-box .log-in-title h4 {
+  color: #4a5568;
+  margin-top: 8px;
+  padding-bottom: 16px;
+}
+.admin_login_form .log-in-button ul li {
+  list-style: none;
+}
+.admin_login_form .log-in-box .other-log-in::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  left: 0;
+  background-color: #ddd;
+  z-index: 0;
+}
+.admin_login_form .log-in-box .other-log-in {
+  position: relative;
+  text-align: center;
+  padding: 10px 0;
+}
+.admin_login_form .log-in-box .other-log-in h6 {
+  background-color: #fff;
+  padding: 0 14px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline;
+}
+.admin_login_form .log-in-box .log-in-button ul li a {
+  padding: 12px 0px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+  color: #222;
+  border-radius: 5px;
+  padding: calc(10px + (16 - 10) * ((100vw - 320px) / (1920 - 320)))
+    calc(18px + (30 - 18) * ((100vw - 320px) / (1920 - 320)));
+  flex-wrap: wrap;
+  gap: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320))); */
+  /* background-color: #f5f5f5; */
+}
+/* .admin_login_form .log-in-box .log-in-button ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+} */
+.admin_login_form .log-in-box .log-in-button ul li {
+  width: 80%;
+  margin: 0 auto;
+}
+.admin_login_form .log-in-box .sign-up-box {
+  margin-top: 20px;
+  text-align: center;
+}
+.for_scrol{
+      overflow: hidden auto;
+      height: 100vh;
+}
+.form-check-label{
+ 
+}
+.remember-box {
+  display: flex;
+  align-items: center;
+}
+.remember-box input{
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}

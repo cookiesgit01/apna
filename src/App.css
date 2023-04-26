@@ -1,0 +1,9 @@
+@import './style/common.css';
+@import './style/product.css';
+@import './style/productdetail.css';
+
+*{
+    /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+font-family: 'Roboto Condensed', sans-serif;
+}

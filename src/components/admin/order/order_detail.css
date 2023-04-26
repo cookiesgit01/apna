@@ -1,0 +1,96 @@
+/* .order_detail .left_side .top_bar{
+      display: flex;
+} */
+
+/* .order_detail_page {
+  overflow: hidden auto;
+  height: 100vh;
+} */
+.order_detail .right_side,
+.order_detail .left_side,
+.product_img_price,
+.delivery_charges,
+.payment_summary {
+  padding: 25px;
+  border: 0 solid #d5d6d7;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  background-color: rgba(26, 28, 35/0.7);
+  background: #fff;
+}
+.order_info_heading{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.order_detail .right_side .customer_info .customer_name_img img,
+.order_detail .right_side .customer_info .customer_orders svg {
+  width: 38px;
+  height: 40px;
+  border: solid 2px #000;
+  border-radius: 50%;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.392);
+  /* font-size: 33px; */
+}
+/* .left_side .top_bar .order_status {
+  background-color: rgb(214 217 16 / 27%);
+  padding: 1px 8px;
+  color: rgb(0 0 0);
+  border-radius: 18%;
+  text-align: center;
+  border: solid 1px rgba(204, 207, 0, 0.9);
+} */
+.left_side .top_bar .order_payment {
+  /* background-color: rgb(63 195 128 / 37%);
+  padding: 1px 8px;
+  color: rgb(0 0 0);
+  border-radius: 18%;
+  border: solid 1px rgba(63, 195, 128, 0.9); */
+}
+
+.order_detail .right_side .customer_info .customer_name_img,
+.order_detail .right_side .customer_info .customer_orders {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.392);
+}
+.order_detail .right_side .customer_info .customer {
+  font-size: 34px;
+  font-weight: 400;
+}
+.order_detail .right_side .customer_info .customer_name_img .customer_name,
+.order_detail .right_side .customer_info .customer_orders .customer_orders_no {
+  font-size: 19px;
+}
+.customer_name_address .ship_Address,
+.customer_name_address .contact {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.392);
+}
+.customer_name_address .contact .contact_heading h5 {
+  margin: 0;
+}
+.customer_name_address .contact .email svg,
+.customer_name_address .contact .number svg {
+  font-size: 22px;
+  margin-right: 8px;
+}
+.customer_name_address .ship_Address .address p,
+.customer_name_address .bill_Address .address p,
+.product_name_detial p {
+  margin: 8px auto;
+}
+.product_img img {
+  width: 95px;
+  height: 125px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);
+  border-radius: 0.5rem;
+}
+.delivery_charges img {
+  width: 43px;
+  height: 58px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);
+  border-radius: 0.5rem;
+  border: solid 1px rgb(0 0 0 / 5%);
+}
+.delivery_charges .delivery_componay {
+  /* padding-left: 8px; */
+}

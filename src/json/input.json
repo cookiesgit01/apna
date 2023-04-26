@@ -1,0 +1,28 @@
+[
+    {
+        "banner_id": 1,
+        "image": "public/catgory_images/image-1672142190385.png",
+        "title": "dipawali dhamka sale 60%off",
+        "description": "get 1 by 1 sale hurry up save 20%",
+        "banner_url": "aasdfgdddddddddddddddd",
+        "size": "landscape",
+        "banner_location": "top carosal",
+        "status": "pending",
+        "created_on": "2022-12-27T11:28:32.000Z",
+        "updated_on": "2022-12-27T11:28:32.000Z",
+        "is_deleted": "1"
+    },
+    {
+        "banner_id": 2,
+        "image": "public/catgory_images/image-1672205460272.png",
+        "title": "dipawali dhamka sale 60%off",
+        "description": "get 2 by 2 sale hurry up save 20%",
+        "banner_url": "aasdfgdddddddddddddddd",
+        "size": "landscape",
+        "banner_location": "bottom carosal",
+        "status": "approved",
+        "created_on": "2022-12-28T05:31:00.000Z",
+        "updated_on": "2022-12-28T05:31:00.000Z",
+        "is_deleted": "1"
+    }
+]
